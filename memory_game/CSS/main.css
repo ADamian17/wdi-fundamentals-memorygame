@@ -1,0 +1,106 @@
+body{
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+
+header{
+	background-color: #F15B31;
+	color: #ffffff;
+	padding: 30px 20px 30px 20px;
+}
+
+h1 {
+font-family: "Raleway", sans-serif;
+font-weight: 400;
+margin: 0 auto;
+}
+
+
+nav{
+	background-color: #00A6B3;
+	color: #ffffff;
+	padding: 20px 0 20px 0;
+}
+
+a{
+	margin: 20px;
+	color: #ffffff;
+	text-decoration: none; 
+	border-bottom: 2px solid transparent;
+}
+
+a:hover{
+	border: white;
+}
+
+
+main{
+	width: 850px;
+	padding: 35px 0 35px 0;
+	margin: 0 auto;
+}
+
+img{
+	margin: 40px 8px 0 8px;
+}
+
+
+p {
+font-family: "Droid Serif", serif;
+}
+
+li{
+	display: inline-block; 
+	text-decoration: none;
+	padding: 5px;
+ 
+}
+
+
+div{
+display: inline;
+width: 300px;
+height: 350px;
+margin: 20px;
+}
+
+
+footer{
+	background-color:#0D2C40;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0.8em;
+	text-transform: uppercase;
+	padding: 20px;
+}
+
+.copyright{
+	float: left;
+}
+
+.message{
+	float: right;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+.name{
+	color: #F15B31;
+	font-weight: 700;
+}
+
+
+
+
+
+
