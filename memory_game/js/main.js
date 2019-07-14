@@ -56,7 +56,7 @@ function createBoard (){
 
 function checkForMatch (){
 	if(cardsInPlay.length === 1) return;
-	
+
 	if ((cardsInPlay.length  === 2 ) && (cardsInPlay[0] === cardsInPlay[1])) {
      
 		alert("You found a match!");
@@ -81,7 +81,7 @@ this.setAttribute('src', cards[cardId].cardImage);
 	console.log(cards[cardId].cardImage);
 	console.log(cards[cardId].suit);
 	cardsInPlay.push(cards[cardId].rank);
-	setTimeout(checkForMatch, 500);
+	setTimeout(checkForMatch, 200);
 }
 
 
