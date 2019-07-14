@@ -37,16 +37,13 @@ var cards = [
 
 var cardsInPlay = [];
 
-//create function reset game
-//1 eliminar los e los elementos del game board
-//llamar la funcion createboard
-//For an extra challenge, consider how you could keep track of and display the user's score.
+
 
 
 function createBoard (){
 	for (var i = 0; i < cards.length; i++) {
     var cardElement = document.createElement('img');
-    cardElement.setAttribute('src', "images/back.png");//user will see the back of the card.
+    cardElement.setAttribute('src', "images/back.png");
     cardElement.setAttribute('data-id', i);
     cardElement.addEventListener('click', flipCard);
     document.getElementById('game-board').appendChild(cardElement);
@@ -107,4 +104,4 @@ createBoard();
 
 
 
-createBoard();//giving me an error
+createBoard();
