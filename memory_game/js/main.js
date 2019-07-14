@@ -56,7 +56,7 @@ function createBoard (){
 
 function checkForMatch (){
 	if(cardsInPlay.length === 1) return;
-console.log(cardsInPlay);
+	
 	if ((cardsInPlay.length  === 2 ) && (cardsInPlay[0] === cardsInPlay[1])) {
      
 		alert("You found a match!");
